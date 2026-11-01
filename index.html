@@ -1,0 +1,18 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tatib Terpadu SMAN 1 Pronojiwo</title>
+<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0b2a5b">
+<link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Tatib SMANPRO"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<style>html,body{margin:0;height:100%;background:#0b2a5b;font-family:system-ui,sans-serif;color:#fff}
+#l{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;padding:20px}
+#l img{width:110px}#l a{color:#f5b301;display:none}
+iframe{position:fixed;left:0;right:0;bottom:0;top:env(safe-area-inset-top,0px);width:100%;height:calc(100% - env(safe-area-inset-top,0px));border:0;background:#f3f6fb}</style></head><body>
+<div id="l"><img src="icon-192.png" alt="Logo"><b>Tatib Terpadu SMAN 1 Pronojiwo</b><span>Memuat aplikasi…</span><a id="o" href="https://script.google.com/macros/s/AKfycbxLPhHuhxhkOm-7UAlIBFa6fIO6O9OgXNRwXbQmqhEjJsqNewzswYmcIEv31Jir5W9xyg/exec">Belum tampil? Buka langsung</a></div>
+<iframe id="f" src="https://script.google.com/macros/s/AKfycbxLPhHuhxhkOm-7UAlIBFa6fIO6O9OgXNRwXbQmqhEjJsqNewzswYmcIEv31Jir5W9xyg/exec" allow="clipboard-write; fullscreen" title="Tatib Terpadu"></iframe>
+<script>
+document.getElementById('f').addEventListener('load',()=>setTimeout(()=>document.getElementById('l').style.display='none',400));
+setTimeout(()=>document.getElementById('o').style.display='block',12000);
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script></body></html>
